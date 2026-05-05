@@ -1,52 +1,39 @@
 # AI Automation Case Studies
 
-![Project preview](docs/screenshots/preview.png)
+![Lina AI influencer preview](docs/screenshots/lina-ai-influencer-preview.svg)
 
-A case-study repository with product plans for AI lead qualification and old-lead reactivation workflows.
+Case studies and public notes for AI automation work: lead handling, old-lead reactivation, self-hosted n8n systems and AI influencer monitoring.
 
-## Demo
+## Public Links
 
-- GitHub: https://github.com/KaimiEwl/ai-automation-case-studies
-- Live demo: not applicable for this project type
-- Video: planned
-- Case notes: see `docs/architecture.md`
+- Portfolio: https://kaimiewl.github.io/#work
+- Lina Monitor: https://n8ncodex.freen8n.space/lina-monitor/
+- n8n Codex instance: https://n8ncodex.freen8n.space/
+- Free n8n instance: https://freen8n.space/
 
-## What it shows
+The n8n instances are login-protected. This repo keeps the public explanation without exposing credentials or private workflows.
 
-This repository shows product strategy, ICP definition, launch planning, workflow specs, compliance thinking and implementation backlog design.
+## What It Shows
 
-## Features
+This is the business-facing side of the automation work: what problem the automation solves, how the workflow is structured, what is safe to publish and what stays private.
 
-- AI lead qualification pilot
-- Old lead reactivation pilot
-- ICP and launch planning docs
-- Workflow and handoff rules
-- Implementation backlog and commercial proposal templates
+## Included Areas
 
-## Tech stack
+- AI lead qualification
+- Old-lead reactivation
+- Lina Monitor: AI influencer workspace with two assistant agents
+- Channel monitoring, post drafting and comment suggestions
+- Self-hosted n8n operations with separated instances
+- Workflow specs, handoff rules and implementation backlog
 
-- AI workflow design
-- CRM operations
-- Product strategy
-- Go-to-market planning
-- Automation specs
+## Stack
 
-## Local setup
+n8n, API integrations, AI workflow design, CRM operations, monitoring dashboards, product strategy.
 
-```
-No runtime setup required. Read the case-study documents in docs/.
-```
+## How To Read
 
-## Verification
-
-```
-Review docs for completeness and broken links.
-```
+Start with `docs/architecture.md`, then open the case-study documents in `docs/`.
 
 ## Status
 
-Case-study export. This is a documentation repository, not an executable app.
-
-## Security and cleanup
-
-This public repository is a clean portfolio export. It intentionally excludes production secrets, local databases, logs, generated media, backups, runtime folders and private deployment artifacts.
+Case-study export. No credentials, workflow secrets, local databases, cookies, private logs or runtime artifacts are published.
